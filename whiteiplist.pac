@@ -1,7 +1,7 @@
-var wall_proxy = "SOCKS5 127.0.0.1:1080;";
-var nowall_proxy = "DIRECT;";
-var direct = "DIRECT;";
-var ip_proxy = "DIRECT;";
+var wall_proxy = "DIRECT;";
+var nowall_proxy = "SOCKS5 127.0.0.1:1081;";
+var direct = "SOCKS5 127.0.0.1:1081;";
+var ip_proxy = "SOCKS5 127.0.0.1:1081;";
 
 /*
  * Copyright (C) 2014 breakwa11
